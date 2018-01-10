@@ -35,6 +35,18 @@ For an interactive guide to specificity, check out this [Specificity Calculator]
 
 Buyer beware. Use specificity as a tool of intent and not a hammer. Seasoned CSS developers will tell you that being overly specific with CSS selectors will cause you nothing but frustration as the project evolves. This is the reason behind such frameworks as OOCSS, SMACSS and BEM.
 
+## Specificity and the cascade
+The cascade in CSS is a very important thing to keep in mind, but simply following the cascade without consideration of specificity is a fool's game.
+
+As the following code clearly shows, the cascade has a role to play, but specificity trumps all. In fact, when the cascade seems to mystify most developers, they typically resort to using specificity as a hammer. This is when many developers simply go into the HTML, wrap it in another `<div>` and add a new ID on that element.
+
+<a class="jsbin-embed" href="http://jsbin.com/tanujo/embed?html,css,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.1"></script>
+
+#### Specificity and Thor's hammer
+How can you tell that a developer does not understand specificity or the cascade? Easy, look for code as illustrated in this bin. What is interesting to note is that the use of an ID alone is usually more than enough to have a really high specificity rating. But when developers follow the whole selector path to the ID, this use of hyper-specificity (jokingly called Thor's hammer) really causes issues down the road as the only way to combat this is to add even more specificity to the CSS selector and the more rules you add like this, the more complex the CSS, the higher risk for error and the longer it takes the CSSOM to render.
+
+<a class="jsbin-embed" href="http://jsbin.com/jogidil/1/embed?html,css,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.1"></script>
+
 ## How is this different in HTML?
 
 Aside from CSS differences, there are specific differences in regards to the HTML attributes and how the browser will render this content. That being said, HTML is very forgiving and will not throw a non-rendering error on the page if you break these rules. But, there will be issues that may arise.

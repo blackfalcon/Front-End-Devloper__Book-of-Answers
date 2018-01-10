@@ -1,15 +1,15 @@
 # Let's be real here ...
 
-There are a number of questions here that are so open ended that there is no one-way to answer. And for that matter, there are NO right answers either. But ... there are expected answers for sure! For these questions, I am simply going to list them in one page and not devote a whole lot of energy to them.
+There are a number of questions here that are so open-ended that there is no one-way to answer. And for that matter, there are NO right answers either. But ... there are expected answers for sure! For these questions, I am simply going to list them on one page and not devote a whole lot of energy to them.
 
 #### What did you learn yesterday/this week?
-The real intent behind this question is to see what your personal learning style is. Development is an ongoing learning challenge and new-hires are expected to be self-starters and highly inquisitive. To be honest, if you didn't learn at least one thing this past week, then you are either stuck in the biggest rut of life, or live in a cave.
+The real intent behind this question is to see what your personal learning style is. Development is an ongoing learning challenge and new-hires are expected to be self-starters and highly inquisitive. To be honest, if you didn't learn at least one thing this past week, then you are either stuck in the biggest rut of life or live in a cave.
 
 #### What excites or interests you about coding?
-This question, IMHO, is basically looking for a similar response as the previous. Again, a career in coding requires you to be excited about your job. The most successful coders I have worked with are not only good at their job, but are excited about their job. So, what excites you?
+This question, IMHO, is basically looking for a similar response as the previous. Again, a career in coding requires you to be excited about your job. The most successful coders I have worked with are not only good at their job but are excited about their job. So, what excites you?
 
 #### What is a recent technical challenge you experienced and how did you solve it?
-This one can be tricky. Now, my advice is not to dig too deep into some really hairy challenge, but use this question to again answer what you may have learned and what excited you. Most interviewers asking this question are looking for your emotional response. If you come back dismissive or egotistical towards a technical challenge, that will count against you. Being positive or showing humility in the face of a real challenge shows you are human and willing to go that extra mile to solve a problem.
+This one can be tricky. Now, my advice is not to dig too deep into some really hairy challenge but use this question to again answer what you may have learned and what excited you. Most interviewers asking this question are looking for your emotional response. If you come back dismissive or egotistical towards a technical challenge, that will count against you. Being positive or showing humility in the face of a real challenge shows you are human and willing to go that extra mile to solve a problem.
 
 #### Talk about your preferred development environment.
 Talk from the heart here. My advice is not to be shy. Lying to try to get the job will only hurt you in the end. For example, if the office is an open environment and you hate that ... how will that work out? Talk about preferred project management style too if you have opinions. Be open here, but don't be overly opinionated or critical either.
@@ -25,7 +25,7 @@ I have serious reservations about this one. Tabs v Spaces is an age-old argument
 I HOPE you are not asked this question, but if you are, I would suggest simply stating that it's not really an issue. IDEs can be configured to address any code style the team has standardized while allowing the user to tap the keys how they see fit.
 
 #### Describe how you would create a simple slideshow page.
-it's questions like this that I have no idea what the original author of the question had in mind. Maybe, at the time, there was a personal battle with jQuery UI, or FLASH? Will the interviewer have a preference? I have NO idea?
+it's questions like this that I have no idea what the original author of the question had in mind. Maybe, at the time, there was a personal battle with jQuery UI or FLASH? Will the interviewer have a preference? I have NO idea?
 
 Given that, as of today, there is probably a preference leaning towards html/css/js. If you have never built a slideshow, [take a look at this.](https://www.w3schools.com/howto/howto_js_slideshow.asp).
 
