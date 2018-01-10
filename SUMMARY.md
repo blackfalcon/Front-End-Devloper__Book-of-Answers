@@ -11,6 +11,7 @@
 
 
 * --- HTML Questions ---
+* [Let's be real ...](html/bereal.md)
 * [What does a doctype do?](html/doctype.md)
 
 
