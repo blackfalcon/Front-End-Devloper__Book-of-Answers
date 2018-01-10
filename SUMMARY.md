@@ -10,5 +10,15 @@
 
 
 
+* --- HTML Questions ---
+* [What does a doctype do?](html/doctype.md)
+
+
+
+* --- CSS Questions ---
+* [What is the difference between classes and IDs in CSS?](css/idvsclass.md)
+
+
+
 * --- JS Questions ---
 * [Explain how this works in JavaScript](js/this.md)
