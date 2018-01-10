@@ -48,7 +48,7 @@ for (let i = 0; i < elements.length; i++) {
 }
 ```
 
-<a class="jsbin-embed" href="http://jsbin.com/pepasak/1/edit?js,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.1"></script>
+<a class="jsbin-embed" href="http://jsbin.com/parate/2/embed?js,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.1"></script>
 
 ## Within Methods and Objects
 
