@@ -27,7 +27,10 @@ This file contains a number of front-end interview questions that can be used wh
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+* When building a new web site or maintaining one, can you explain some techniques you have used to increase performance?
+* Can you describe some SEO best practices or techniques you have used lately?
+* Can you explain any common techniques or recent issues solved in regards to front-end security?
+* What actions have you personally taken on recent projects to increase maintainability of your code?
 * Talk about your preferred development environment.
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
@@ -49,9 +52,6 @@ This file contains a number of front-end interview questions that can be used wh
 #### HTML Questions:
 
 * What does a `doctype` do?
-* What's the difference between full standards mode, almost standards mode and quirks mode?
-* What's the difference between HTML and XHTML?
-* Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
@@ -65,14 +65,12 @@ This file contains a number of front-end interview questions that can be used wh
 
 #### CSS Questions:
 
-* What is the difference between classes and IDs in CSS?
+* What is CSS selector specificity and how does it work?
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
-* Explain CSS sprites, and how you would implement them on a page or site.
-* What are your favourite image replacement techniques and which do you use when?
 * How would you approach fixing browser-specific styling issues?
 * How do you serve your pages for feature-constrained browsers?
   * What techniques/processes do you use?
@@ -80,7 +78,7 @@ This file contains a number of front-end interview questions that can be used wh
 * Have you ever used a grid system, and if so, what do you prefer?
 * Have you used or implemented media queries or mobile specific layouts/CSS?
 * Are you familiar with styling SVG?
-* How do you optimize your webpages for print?
+* Can you give an example of an `@media` property other than `screen`?
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors?
   * Describe what you like and dislike about the CSS preprocessors you have used.
@@ -89,13 +87,12 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe pseudo-elements and discuss what they are used for.
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
-* List as many values for the display property that you can remember.
+* What is the CSS `display` property and can you give a few examples of its use?
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
-* The 'C' in CSS stands for Cascading.  How is priority determined in assigning styles (a few examples)?  How can you use this system to your advantage?
 * What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
-* How is responsive design different from adaptive design?
+* Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
 * Have you ever worked with retina graphics? If so, when and what techniques did you use?
 * Is there any reason you'd want to use `translate()` instead of *absolute positioning*, or vice-versa? And why?
 
