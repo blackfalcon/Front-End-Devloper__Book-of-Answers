@@ -1,4 +1,4 @@
-# What is the difference between classes and IDs in CSS?
+# What CSS selector specificity and how does it work?
 
 What is an ID?
 
@@ -8,9 +8,7 @@ What is a class?
 
 > The CSS class selector matches elements based on the contents of their class attribute.
 
-Given these descriptions, they are basically the same thing in practice but differentiated by their HTML attribute. As far as CSS is concerned, there is virtually no difference. If you have an ID selector or a CLASS selector, the styles will be applied the same. The one major difference is in regards to specificity.
-
-To really get to the root of this question, I feel that the real question should be, "What is CSS specificity?".
+Given these descriptions, they are basically the same thing in practice but differentiated by their HTML attribute. As far as CSS is concerned, there is virtually no difference. If you have an ID selector or a CLASS selector, the styles will be applied the same. The major difference is in regards to their specificity.
 
 CSS Specificity is a matrix calculation that determines in what specific order a CSS style will be applied to a DOM element. The lower the specificity rating, the more universally it will be applied to DOM elements and the easier it is to over-write. The higher the specificity, the more specifically the style will be applied to a DOM element and the harder it is to over-write.
 
@@ -33,12 +31,12 @@ The following is a chart of specificity from the W3C, 6.4.3 Calculating a select
 
 For an interactive guide to specificity, check out this [Specificity Calculator](https://specificity.keegan.st/).
 
-Buyer beware. Use specificity as a tool of intent and not a hammer. Seasoned CSS developers will tell you that being overly specific with CSS selectors will cause you nothing but frustration as the project evolves. This is the reason behind such frameworks as OOCSS, SMACSS and BEM.
+Buyer beware. Use specificity as a tool of intent and not a hammer. Seasoned CSS developers will tell you that being overly specific with CSS selectors will cause you nothing but frustration as the project evolves. This is the reason behind such frameworks as OOCSS, SMACSS, and BEM.
 
 ## Specificity and the cascade
 The cascade in CSS is a very important thing to keep in mind, but simply following the cascade without consideration of specificity is a fool's game.
 
-As the following code clearly shows, the cascade has a role to play, but specificity trumps all. In fact, when the cascade seems to mystify most developers, they typically resort to using specificity as a hammer. This is when many developers simply go into the HTML, wrap it in another `<div>` and add a new ID on that element.
+As the following code clearly shows, the cascade has a role to play, but specificity trumps all. In fact, when the cascade seems to mystify most developers, they typically resort to using specificity as a hammer. This is when many developers simply go into the HTML, wrap it in another `<div>` and add a new ID to that element.
 
 <a class="jsbin-embed" href="http://jsbin.com/tanujo/embed?html,css,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.1"></script>
 
@@ -51,7 +49,7 @@ How can you tell that a developer does not understand specificity or the cascade
 
 Aside from CSS differences, there are specific differences in regards to the HTML attributes and how the browser will render this content. That being said, HTML is very forgiving and will not throw a non-rendering error on the page if you break these rules. But, there will be issues that may arise.
 
-Classes can be used again and again on the page and have relative specificity as determined by the matrix above. IDs on the other hand are to be unique and only referenced ONCE per view. Like I said, using an ID over and over in the same view will not break its UI. In fact the browser UI rendering engine will not really care and may throw a silent error. But when using JavaScript and you try to target an ID that is duplicated on a view, there will be a significant error that will break functionality.
+Classes can be used again and again on the page and have relative specificity as determined by the matrix above. IDs, on the other hand, are to be unique and only referenced ONCE per view. Like I said, using an ID over and over in the same view will not break its UI. In fact, the browser UI rendering engine will not really care and may throw a silent error. But when using JavaScript and you try to target an ID that is duplicated on a view, there will be a significant error that will break functionality.
 
 ## How I would answer this in an interview
-To answer the CSS part of the question, I would reference the relative differences in specificity (but be sure you understand that, as it will probably be a follow-up question). Then I would also caveat that with the fact that IDs need to be unique per view and have a higher specificity rating, whereas CLASSES are less specific and are intended for repeated use.
+CSS specificity is a fine-line to be walked. Not understanding how it works you will find yourself at the mercy of the cascade. Use it like a hammer and you will quickly paint yourself into a corner. CSS specificity is not a mystery as most think. It is a very clear series of calculations that determine a selectors importance in the scope of the view.
