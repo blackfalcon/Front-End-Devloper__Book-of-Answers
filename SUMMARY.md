@@ -25,3 +25,4 @@
 * [Explain how this works in JavaScript](js/this.md)
 * [What are the benefits of using spread syntax and how is it different from rest syntax?](js/spreadAndRestSyntax.md)
 * [Can you give an example of a curry function and why this syntax offers an advantage?](js/curry.md)
+* [Explain "hoisting"](js/hoisting.md)
