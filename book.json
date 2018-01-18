@@ -1,6 +1,6 @@
 {
   "title": "Front-End Developer Questions: The Book of Answers!",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "You've seen the questions, here are the answers",
   "author": "Dale Sande <dale.sande@gmail.com>",
   "license": "copyright 2018",
@@ -8,6 +8,6 @@
 
   "variables": {
     "title": "Front-End Developer Questions: The Book of Answers!",
-    "version": "0.1.2"
+    "version": "0.1.3"
   }
 }
