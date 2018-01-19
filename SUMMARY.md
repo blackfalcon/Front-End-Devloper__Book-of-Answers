@@ -12,6 +12,7 @@
 
 * --- HTML Questions ---
 * [What does a doctype do?](html/doctype.md)
+* [Why is it generally a good idea to position CSS in the head and JS just before body? Do you know any exceptions?](html/linkScriptPosition.md)
 
 
 
