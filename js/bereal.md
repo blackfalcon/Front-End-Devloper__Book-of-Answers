@@ -23,3 +23,13 @@ Now, `===` is a comparison operator that will evaluate value and type.
 1 == 1 / true
 '1' === 1 / false
 ```
+
+#### Explain why the following doesn't work as an IIFE: `function foo(){ }();`
+
+This question does not require a whole lot of explanation. And `IIFE` is an Immediately Invoked Function Expression. The following illustrates what the proper syntax is. From this I'd assume you can answer the question.
+
+```js
+(function() {
+  ...
+})();
+```
