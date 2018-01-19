@@ -5,9 +5,14 @@
   "author": "Dale Sande <dale.sande@gmail.com>",
   "license": "copyright 2018",
   "gitbook": ">= 3.2.3",
-
   "variables": {
     "title": "Front-End Developer Questions: The Book of Answers!",
     "version": "0.1.3"
-  }
+  },
+  "plugins": ["ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-112755154-1"
+        }
+    }
 }
