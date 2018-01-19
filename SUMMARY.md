@@ -28,3 +28,4 @@
 * [Can you give an example of a curry function and why this syntax offers an advantage?](js/curry.md)
 * [Explain "hoisting"](js/hoisting.md)
 * [Can you give an example for destructuring an object or an array?](js/destructuring.md)
+* [Why is it called a Ternary operator, what does the word "Ternary" indicate?](js/ternary.md)
