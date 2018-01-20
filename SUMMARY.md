@@ -32,3 +32,4 @@
 * [Why is it called a Ternary operator, what does the word "Ternary" indicate?](js/ternary.md)
 * [What's the difference between .call and .apply?](js/callApply.md)
 * [Explain Function.prototype.bind](js/bind.md)
+* [Explain how prototypal inheritance works](js/prototypalInheritance.md)
